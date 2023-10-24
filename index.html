@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - Dark Mode</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4 mb-4">To-Do List - Dark Mode</h1>
+        <!-- Form untuk menambahkan tugas -->
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <input type="text" class="form-control" id="task" placeholder="Tambahkan tugas...">
+            </div>
+            <div class="col-md-2">
+                <input type="date" class="form-control" id="deadline">
+            </div>
+            <div class="col-md-2">
+                <input type="time" class="form-control" id="deadline-time">
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary btn-block" id="add">Tambah</button>
+            </div>
+        </div>
+        <!-- Daftar tugas dalam tabel -->
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th scope="col">Tugas</th>
+                    <th scope="col">Deadline</th>
+                    <th scope="col">Jam Deadline</th>
+                    <th scope="col">Waktu Hingga Deadline</th>
+                    <th scope="col">Tindakan</th>
+                </tr>
+            </thead>
+            <tbody id="tasks-table">
+                <!-- Daftar tugas akan ditampilkan di sini -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

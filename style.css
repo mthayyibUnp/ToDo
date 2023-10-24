@@ -1,0 +1,39 @@
+/* Gaya untuk elemen "body" */
+body {
+    background-image: url('background-image.jpg'); 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+}
+
+/* Gaya untuk elemen "table" */
+.table {
+    background-color: rgba(0, 0, 0, 0.8); /* Warna latar belakang tabel dengan tingkat transparansi */
+    color: #fff; /* Warna teks putih di dalam tabel */
+}
+
+/* Gaya khusus untuk dark mode */
+.dark-mode {
+    background-color: #222; /* Latar belakang gelap */
+    color: #fff; /* Warna teks putih */
+}
+
+/* Gaya untuk tombol "Tambah" */
+#add {
+    background-color: #007BFF; /* Warna tombol biru */
+    color: #fff; /* Warna teks putih */
+}
+
+/* Gaya untuk tombol "Hapus" dan "Selesai" */
+.btn-danger, .btn-success {
+    color: #fff; /* Warna teks putih */
+}
+
+.completed {
+    background-color: #28a745; /* Warna latar belakang hijau untuk tugas yang selesai */
+}
+
+/* Gaya khusus untuk waktu ditambahkan */
+td:nth-child(4) {
+    color: #007BFF; /* Warna teks biru untuk waktu ditambahkan */
+}
